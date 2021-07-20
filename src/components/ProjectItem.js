@@ -4,6 +4,7 @@ function ProjectItem({ name, about, technologies }) {
   const techs = technologies.map((tech)=>{
         return <span key={tech}>{tech}</span>
   })
+  console.log(techs)
   return (
     <div className="project-item">
       <h3>{name}</h3>
