@@ -10,13 +10,7 @@ function NavBar() {
            <a href="#projects" >{links[2]}</a>
     </nav>
   );
-  //another way of doing it:
-//   const linkLinks = links.map((link)=>{
-//     return <a key={link} href={link}>{link}</a>
-//   });
-//   return(
-//     <nav>{linkLinks}</nav>
-//  )
+//   another way of doing it:
 }
 
 export default NavBar;

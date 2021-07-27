@@ -1,5 +1,5 @@
 import React from "react";
-//import App from "./App";
+
 function ProjectItem({ name, about, technologies }) {
   const techs = technologies.map((tech)=>{
         return <span key={tech}>{tech}</span>
